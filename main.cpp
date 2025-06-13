@@ -52,6 +52,8 @@ int main(int argc, char **argv)
             bin << "0x11 ";
         else if (op == "JPC")
             bin << "0x12 ";
+        else 
+            bin << op << " ";
     }
     bin.close();
     return 0;
