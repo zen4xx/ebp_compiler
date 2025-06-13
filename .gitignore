@@ -1,1 +1,5 @@
 /.vscode
+Makefile
+ebp_compiler
+CMakeFiles
+cmake_install.cmake
